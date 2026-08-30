@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200..700&family=Poppins:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;   
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./imagem-fundo.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.container{
+    width: 400px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2) ;
+    border-radius: 10px;
+    color: #fff;
+    padding: 30px 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    backdrop-filter: blur(80px);
+}
+
+.container h1{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.input-box input {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 20px 0;
+} 
+
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgba(255,255,255, .2) ;
+    outline: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+    border-radius: 30px;
+
+} 
+
+.input-box input::placeholder{
+
+    color: #c5c5c5;
+}
+.input-box i{
+    position: absolute;
+    right: 11%;
+    padding: 25px;
+    font-size: 20px;
+    transform: translateY(15%);
+   
+} 
+
+.remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin: 1px 0 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+    
+
+} 
+
+.remember-forgot label {
+  display: flex;
+  align-items: center;
+   
+  
+}
+
+.remember-forgot label input{
+    display: flex;
+    accent-color:#fff ;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 8px;
+
+} 
+
+.remember-forgot a{
+    text-decoration: none;
+    color: #fff;
+
+
+} 
+
+.remember-forgot a:hover{
+    text-decoration: underline;
+
+} 
+
+.botao-submit{
+    width: 100%;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color:#fff;
+    font-size: 16px;
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 0 10px rgba(0,
+    0,0,.1);
+    margin-top: 20px;   
+    
+} 
+
+.botao-submit:hover{
+    background-color:transparent; 
+    border:2px solid rgba(255,255,255,.2) ;
+    color:#fff;
+    transition:0.5s
+
+} 
+
+.register-link{
+    font-size: 16px;
+    text-align: center;
+    margin:20px 0 12px ;
+
+} 
+.register-link a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+} 
+.register-link a:hover{
+    text-decoration: underline;
+
+}
