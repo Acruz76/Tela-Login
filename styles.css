@@ -148,4 +148,66 @@ body{
 .register-link a:hover{
     text-decoration: underline;
 
+} 
+
+/* ===== RESPONSIVIDADE ===== */
+
+/* Tablets (ex: iPad, Android tablets) */
+@media (max-width: 768px){
+    .container{
+        max-width: 380px;
+        padding: 25px 30px;
+    }
+
+    .container h1{
+        font-size: 32px;
+    }
+}
+
+/* Celulares grandes (ex: iPhone Plus/Max, Android grandes) */
+@media (max-width: 480px){
+    .container{
+        max-width: 100%;
+        padding: 25px 20px;
+        border-radius: 16px;
+    }
+
+    .container h1{
+        font-size: 28px;
+    }
+
+    .input-box input{
+        height: 45px;
+        font-size: 15px;
+        padding: 15px 40px 15px 15px;
+    }
+
+    .input-box i{
+        right: 15px;
+        font-size: 18px;
+    }
+
+    .remember-forgot{
+        font-size: 13px;
+    }
+
+    .botao-submit{
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .register-link{
+        font-size: 14px;
+    }
+}
+
+/* Celulares bem pequenos (ex: iPhone SE) */
+@media (max-width: 360px){
+    .container{
+        padding: 20px 15px;
+    }
+
+    .container h1{
+        font-size: 24px;
+    }
 }
